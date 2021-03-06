@@ -1,0 +1,370 @@
+body{
+    width:66%;
+    margin:0 auto;
+    padding: 10px;
+    font-family: 'Calibri';
+    line-height:1.4em;
+    font-size: 14pt;
+}
+html{
+    background-image: url('background.webp');
+    background-repeat: no_repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    border-collapse: collapse;
+    width:100%;
+}
+.header{
+    height:100px;
+    padding:10px;
+    background-image: url('header.webp');
+    background-repeat: no_repeat;
+    background-size: cover;
+    color:white;
+}
+.content{
+    padding:10px;
+    background-color:white;
+}
+.footer{
+    padding:10px;
+    background-color: #0047ab;
+    color:white;
+}
+/* Navigation Bar */
+.nav{
+    background-color: #0047ab;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+}
+.nav table{
+    width:100%;
+    border-collapse: collapse;
+}
+.nav table tr td{
+    text-align: center;
+    background-color: #0047ab;
+    color:white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width:20%;
+}
+.nav table tr td a{
+    text-decoration: none;
+    color:white;
+}
+.nav table tr td:hover{
+    background-color:black;
+}
+
+/* data table */
+.data_table{
+    width:100%;
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.data_table tr td{
+    border:1px solid black;
+    padding: 7px;
+    width:25%;
+}
+.data_table tr td a{
+    text-decoration: none;
+}
+.data_table tr:first-child{
+    background-color:#0047ab;
+    color:white;
+}
+.data_table tr:nth-child(odd):not(:first-child){
+    background-color:lightgoldenrodyellow;
+}
+.data_table tr:hover:not(:first-child){
+    background-color:#0047ab !important;
+    color:white;
+}
+
+.data_table tr:hover:not(:first-child) td a{
+    color:white;
+    
+}
+
+/* input table */
+.input_table{
+    width:100%;
+    border-collapse: collapse;
+}
+.input_table tr td{
+    border:1px solid black;
+    padding: 7px;
+}
+.input_table tr td:first-child{
+    width:25%;
+    background-color:#0047ab;
+    color:white;
+}
+.input_table tr:not(:last-child) td:nth-child(odd){
+    border-bottom:1px solid white;
+}
+.input_table tr:last-child td input{
+    width:22%;
+}
+.half{
+    width:50%;
+    margin: 0 auto;
+}
+.quad tr td{
+    width: 25%;
+}
+.quad tr td:nth-child(odd){
+    background-color:#0047ab;
+    color:white;
+}
+.quad tr:last-child td input{
+    width:100%;
+}
+.quad tr:last-child td:last-child input{
+    width:30%;
+}
+
+/* product table */
+.product_table{
+    width:100%;
+    border-collapse: collapse;
+}
+.product_table tr td{
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.product_table tr .product_title{
+    font-size:22pt;
+    font-weight: bold;
+}
+
+.search_table{
+    width:100%;
+}
+.search_table tr td:nth-child(1){
+    width:70%;
+}
+.search_table tr td:nth-child(2){
+    width:20%;
+}
+
+/* Recipe table */
+.recipe_table tr td:nth-child(1){
+    width:35%;
+    vertical-align: top;
+}
+.recipe_table tr td:nth-child(2){
+    padding-left: 14px;
+}
+.recipe_table tr td .image_content{
+    max-width:100% !important;
+}
+
+/* Recipe */
+.recipe tr td:nth-child(1){
+    width:75%;
+}
+
+/* form elements */
+input{
+    width:100%;
+    box-sizing: border-box;
+    font-family: Calibri;
+    font-size:14pt;
+}
+select{
+    width:100%;
+    box-sizing: border-box;
+    font-family: Calibri;
+    font-size:14pt;
+}
+textarea{
+    width:100%;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+    line-height:1.4em;
+    font-size: 14pt;
+    resize: vertical;
+}
+
+/* Texts And Images */
+h1{
+    margin-block-start: 10px;
+    margin-block-end:10px;
+}
+h2{
+    line-height: 1em;
+    margin-top:0.5em;
+    scroll-margin-block:0.5em;
+}
+h3{
+    line-height: 1em;
+    margin-top:0.5em;
+    scroll-margin-block:0.5em;
+}
+.image_content{
+    max-width:50%;
+    border:2px solid black;
+    display:block;
+    margin:0 auto;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.article{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    color:black;
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    z-index: 1;
+    line-height: 1.7em;
+    margin-left:-1px;
+    margin-top:2px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Breadcrumb */
+.bread{
+    border: 2px solid #0047ab;
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+/* Page Number */
+.page{
+    width:100%;
+    border-collapse: collapse;
+}
+.page tr td{
+    width:10%;
+    text-align: center;
+}
+.page tr td button{
+    width:100%;
+    height:100%;
+    font-size: 14pt;
+    padding: 7px;
+    border: 0;
+}
+.page tr td button:hover{
+    width:100%;
+    height:100%;
+    font-size: 14pt;
+    padding: 7px;
+    cursor: pointer;
+}
+.page tr td button:focus{
+    border: 0;
+    background-color:#0047ab;
+    color:white;
+}
+
+/* alerts */
+.alert{
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 2px solid #0047ab;
+    color:black;
+}
+
+/* button */
+.button{
+    font-size: 14pt;
+    font-family: Calibri;
+    padding:5px;
+    min-width:10%;
+    border:2px solid black;
+}
+.button:active{
+    border-radius: 0;
+}
+.button:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+}
+
+.dashboard_table{
+    width:100%;
+    border-spacing: 10px;
+    border-collapse:collapse;
+    color:white;
+    margin-bottom: 7px;
+}
+.dashboard_table tr td{
+    background-color: #0047ab; 
+    padding:7px;
+    width:33.333%;
+}
+.dashboard_table tr td:not(:last-child){
+    border-right: 3px solid white;
+}
+.dashboard_table tr:nth-child(odd) td{
+   font-size:30pt;
+   font-weight: bold;
+   height: 100px;
+   padding:7px;
+   border-bottom: 3px solid white;
+}
+.dashboard_table tr:nth-child(even) td{
+    font-size:15pt;
+}
+
+/* Colorings */
+.warning{
+    background-color:darkorange;
+    color:white;
+}
+.info{
+    background-color:#0047ab;
+    color:white;
+}
+.critical{
+    background-color: red;
+    color:white;
+}
+.success{
+    background-color: darkgreen;
+    color:white;
+}
+
+.youtube_video{
+    width:100%;
+    min-height:500px;
+    height:500px;
+}
+
+/* Small Screen */
+@media handheld{
+    body{
+        width:100%;
+        padding:0;
+    }
+    .image_content{
+        max-width:100%;
+    }
+}
