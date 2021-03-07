@@ -92,67 +92,6 @@ html{
     
 }
 
-/* input table */
-.input_table{
-    width:100%;
-    border-collapse: collapse;
-}
-.input_table tr td{
-    border:1px solid black;
-    padding: 7px;
-}
-.input_table tr td:first-child{
-    width:25%;
-    background-color:#0047ab;
-    color:white;
-}
-.input_table tr:not(:last-child) td:nth-child(odd){
-    border-bottom:1px solid white;
-}
-.input_table tr:last-child td input{
-    width:22%;
-}
-.half{
-    width:50%;
-    margin: 0 auto;
-}
-.quad tr td{
-    width: 25%;
-}
-.quad tr td:nth-child(odd){
-    background-color:#0047ab;
-    color:white;
-}
-.quad tr:last-child td input{
-    width:100%;
-}
-.quad tr:last-child td:last-child input{
-    width:30%;
-}
-
-/* product table */
-.product_table{
-    width:100%;
-    border-collapse: collapse;
-}
-.product_table tr td{
-    padding-top:7px;
-    padding-bottom:7px;
-}
-.product_table tr .product_title{
-    font-size:22pt;
-    font-weight: bold;
-}
-
-.search_table{
-    width:100%;
-}
-.search_table tr td:nth-child(1){
-    width:70%;
-}
-.search_table tr td:nth-child(2){
-    width:20%;
-}
 
 /* Recipe table */
 .recipe_table tr td:nth-child(1){
@@ -199,9 +138,7 @@ h1{
     margin-block-end:10px;
 }
 h2{
-    line-height: 1em;
-    margin-top:0.5em;
-    scroll-margin-block:0.5em;
+    line-height: 0.5em;
 }
 h3{
     line-height: 1em;
@@ -252,34 +189,6 @@ h3{
     padding: 7px;
 }
 
-/* Page Number */
-.page{
-    width:100%;
-    border-collapse: collapse;
-}
-.page tr td{
-    width:10%;
-    text-align: center;
-}
-.page tr td button{
-    width:100%;
-    height:100%;
-    font-size: 14pt;
-    padding: 7px;
-    border: 0;
-}
-.page tr td button:hover{
-    width:100%;
-    height:100%;
-    font-size: 14pt;
-    padding: 7px;
-    cursor: pointer;
-}
-.page tr td button:focus{
-    border: 0;
-    background-color:#0047ab;
-    color:white;
-}
 
 /* alerts */
 .alert{
@@ -308,31 +217,6 @@ h3{
     cursor: pointer;
 }
 
-.dashboard_table{
-    width:100%;
-    border-spacing: 10px;
-    border-collapse:collapse;
-    color:white;
-    margin-bottom: 7px;
-}
-.dashboard_table tr td{
-    background-color: #0047ab; 
-    padding:7px;
-    width:33.333%;
-}
-.dashboard_table tr td:not(:last-child){
-    border-right: 3px solid white;
-}
-.dashboard_table tr:nth-child(odd) td{
-   font-size:30pt;
-   font-weight: bold;
-   height: 100px;
-   padding:7px;
-   border-bottom: 3px solid white;
-}
-.dashboard_table tr:nth-child(even) td{
-    font-size:15pt;
-}
 
 /* Colorings */
 .warning{
@@ -350,12 +234,6 @@ h3{
 .success{
     background-color: darkgreen;
     color:white;
-}
-
-.youtube_video{
-    width:100%;
-    min-height:500px;
-    height:500px;
 }
 
 /* Small Screen */
